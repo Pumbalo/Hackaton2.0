@@ -16,7 +16,8 @@ html {
 }
 
 .container {
-  width: 70%;
+  width: 100%;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -73,7 +74,7 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  outline: 2px solid #fff;
+  outline: 3px solid #fff;
   position: absolute;
   left: 10rem;
   bottom: 1rem;
@@ -109,4 +110,21 @@ html {
 .btn:hover {
   transition: 500ms ease-in-out all;
   background: #efefef;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+}
+
+th {
+  font-size: 1.2rem;
+}
+td {
+  font-size: 1rem;
+}
+
+tr {
+  display: flex;
+  align-items: center;
 }
