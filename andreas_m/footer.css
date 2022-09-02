@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.links {
+  text-decoration: none;
+  color: gray;
+  transition: 0.1s;
+}
+
+.links:hover {
+  transition: 0.2s;
+  color: #3c3c3c;
+}
+
+.text2 {
+  margin: 10px 10px;
+  color: #b3b3b3;
+  user-select: none;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.text2:hover {
+  transition: 0.2s;
+  color: #3c3c3c;
+}
